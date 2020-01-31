@@ -1,0 +1,11 @@
+{
+  "@aws-cdk/core:enableStackNameDuplicates": "true",
+  "aws-cdk:enableDiffNoFail": "true",
+  "nested": {
+    "key1": "val1",
+    "key2": "val2"
+  },
+  "TenantParameter": "tp111",
+  "LocationParameter": "lp111",
+  "SECRET_KEY_ARN": "arn:aws:secretsmanager:eu-west-1:111111111111111:secret:secret/userpassword-WG1TQe"
+}

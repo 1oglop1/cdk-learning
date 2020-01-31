@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2019",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
+        "outDir": "dist",
+        "forceConsistentCasingInFileNames": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "noUnusedLocals": true,
+        "skipLibCheck": true,
+        "plugins": [
+            {
+                "name": "typescript-tslint-plugin",
+                "alwaysShowRuleFailuresAsWarnings": false,
+            },
+        ],
+    }
+}

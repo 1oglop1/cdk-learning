@@ -1,0 +1,20 @@
+{
+  "name": "data-ingestion-consumer",
+  "version": "1.0.0",
+  "description": "Lambda function",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Awaiting jest installation...\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.1.7",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "uuid": "^3.4.0"
+  }
+}
